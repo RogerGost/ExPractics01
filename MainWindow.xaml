@@ -7,22 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="boto1" Content="Buenas" HorizontalAlignment="Left" Margin="165,76,0,0" VerticalAlignment="Top"
-                Height="40" Width="97" Background="Orange"
+        <Button Name="boto1" Content="Buenas" HorizontalAlignment="Left" Margin="34,143,0,0" VerticalAlignment="Top"
+                Height="43" Width="153" Background="Orange"
                 FontWeight="Bold"/>
 
-        <Button Name="boto2" Content="Noches" HorizontalAlignment="Left" Margin="280,76,0,0" VerticalAlignment="Top"
-                Height="40" Width="108" Click="botton2" Background="OrangeRed"
+        <Button Name="boto2" Content="Incrementar contador" HorizontalAlignment="Left" Margin="34,98,0,0" VerticalAlignment="Top"
+                Height="40" Width="153" Click="botton2" Background="Orange"
                 FontWeight="Bold"/>
 
-        <CheckBox Name="check" Content="CHECK" HorizontalAlignment="Left" Margin="438,80,0,0" VerticalAlignment="Top"
-                  Height="16" Width="69"
+        <CheckBox Name="check" Content="Check" HorizontalAlignment="Left" Margin="34,47,0,0" VerticalAlignment="Top"
+                  Height="21" Width="91"
                   Checked="CheckClick"
                   Unchecked="CheckUnclick"
                   FontWeight="Bold"/>
 
-        <Label Name="Contador" Content="1" HorizontalAlignment="Left" Margin="257,151,0,0" VerticalAlignment="Top" Height="51"
-               Width="77" Background="LightSalmon" FontSize="30" FontWeight="Bold"/>
+        <Label Name="Contador" Content="1" HorizontalAlignment="Left" Margin="157,30,0,0" VerticalAlignment="Top" Height="63"
+               Width="92" FontSize="30" FontWeight="Bold"/>
 
 
 

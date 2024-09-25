@@ -1,0 +1,31 @@
+﻿<Window x:Class="ExPractics01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExPractics01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="boto1" Content="Buenas" HorizontalAlignment="Left" Margin="165,76,0,0" VerticalAlignment="Top"
+                Height="40" Width="97" Background="Orange"
+                FontWeight="Bold"/>
+
+        <Button Name="boto2" Content="Noches" HorizontalAlignment="Left" Margin="280,76,0,0" VerticalAlignment="Top"
+                Height="40" Width="108" Click="botton2" Background="OrangeRed"
+                FontWeight="Bold"/>
+
+        <CheckBox Name="check" Content="CHECK" HorizontalAlignment="Left" Margin="438,80,0,0" VerticalAlignment="Top"
+                  Height="16" Width="69"
+                  Checked="CheckClick"
+                  Unchecked="CheckUnclick"
+                  FontWeight="Bold"/>
+
+        <Label Name="Contador" Content="1" HorizontalAlignment="Left" Margin="257,151,0,0" VerticalAlignment="Top" Height="51"
+               Width="77" Background="LightSalmon" FontSize="30" FontWeight="Bold"/>
+
+
+
+
+    </Grid>
+</Window>
